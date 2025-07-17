@@ -23,3 +23,39 @@ git clone https://github.com/ManjaroLover153/SAM-Reader.git
 cd sam-reader
 python main.py
 ```
+
+Or simply download the installer from releases section.
+
+---
+
+# Usage
+Run the application via command line:
+```bash
+python main.py
+```
+or, if you have the executable:
+```bash
+dist/main.exe
+```
+Follow the prompts to extract SAM data.
+
+---
+# Requirements
+- Windows OS (due to the usage of the Windows Registry and winreg module)
+- Python 3.x (if running the .py script)
+- Administrator privileges may be required to access certain registry keys (or use ExecTI if using `.exe`)
+
+# Security Warning
+Accessing the SAM database involves sensitive system data. Use responsibly and only on machines where you have permission.
+
+---
+
+# Contributing
+Contributions, bug reports, and feature requests are welcome! Feel free to open issues or submit pull requests.
+
+---
+# License
+MIT License — see `LICENSE` file for details.
+
+# Contact
+Created by ManjaroLover153 — https://github.com/ManjaroLover153
